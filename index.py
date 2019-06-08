@@ -99,7 +99,7 @@ for css in external_css:
     app.css.append_css({"external_url": css})
 
 external_js = ['https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js']
-for js in external_js:
+for js in external_css:
     app.scripts.append_script({'external_url': js})
 
 if __name__ == '__main__':
